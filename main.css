@@ -1,0 +1,537 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+   
+}
+
+.top_nav a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    font-size: 1.2em;
+   font-weight: bold;
+    padding-left: 80px;
+    color: brown;
+    display: inline;
+    font-size: 1.5em;
+    background: rgb(219, 218, 218);
+    box-shadow:
+                 -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                  5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+                  
+    
+}
+
+.top_nav a:hover{
+    background-color: blue;
+    color: #ccc;
+}
+
+.top_nav{
+   
+    margin-top: -27px;
+    background: rgb(219, 218, 218);
+}
+/* ---------------------------------------------------slider */
+#slider{
+    width: 98%;
+    
+    height: 500px;
+    border-radius: 50px;
+}
+
+.main_slider{
+    margin-left: 45px;
+   
+}
+                                           /* Top Specialist doctor */
+h1{
+    text-align: center;
+}
+.Specialist_doctor{
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.doctor_name{
+    width: 95%;
+    margin-left: 30px;
+    
+    border-radius: 5%;
+}
+
+  /* #d:hover{
+   hvr-pulse
+} */
+
+                                            /* footer section */
+    
+                                            .footer_wrapper {
+                                                background-color: lightgreen;
+                                                background-repeat: no-repeat;
+                                                background-size: cover;
+                                                background-position: top center;
+                                                padding-top: 15rem;
+                                                padding-bottom: 0rem;
+                                                color: darkred;
+                                               
+                                            }
+                                            
+                                            .footer_wrapper h5 {
+                                                color: var(--text-white);
+                                                font-size: 2.5rem;
+                                                margin-bottom: 1.25rem;
+                                            }
+                                            
+                                            .footer_wrapper ul li {
+                                                margin-bottom: .5rem;
+                                                list-style: none;
+                                            }
+                                            
+                                            .footer_wrapper .company_details {
+                                                font-size: 1.4rem;
+                                            }
+                                            
+                                            .footer_wrapper .contact-info li a {
+                                                color: var(--text-gray);
+                                                font-size: 1.6rem;
+                                            }
+                                            
+                                            .footer_wrapper .link-widget li a,
+                                            .footer_wrapper p {
+                                                color: var(--text-gray);
+                                                font-size: 1.6rem;
+                                                padding-left: 1.5rem;
+                                                position: relative;
+                                                -webkit-transition: all 0.3s ease-out 0s;
+                                                transition: all 0.3s ease-out 0s;
+                                            }
+                                            
+                                            .footer_wrapper .link-widget li a::before {
+                                                content: '\f105';
+                                                font-family: "Font Awesome 5 Free";
+                                                font-weight: 900;
+                                                position: absolute;
+                                                left: 0.3rem;
+                                                top: 50%;
+                                                -webkit-transform: translateY(-50%);
+                                                transform: translateY(-50%);
+                                            }
+                                            
+                                            .footer_wrapper .link-widget li a:hover {
+                                                margin-left: .625rem;
+                                                color: var(--secondary-color);
+                                            }
+                                            
+                                            .footer_wrapper .social-network a {
+                                                width: 3.5rem;
+                                                height: 3.5rem;
+                                                margin: .5rem;
+                                                line-height: 3.2rem;
+                                                font-size: 1.5rem;
+                                                display: inline-block;
+                                                border: .125rem solid var(--text-gray);
+                                                color: var(--text-gray);
+                                                text-align: center;
+                                                border-radius: 100%;
+                                                -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                                                transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                                            }
+                                            
+                                            .footer_wrapper .social-network a:hover {
+                                                background-color: red;
+                                                border-color: var(--secondary-color);
+                                                color: var(--text-white);
+                                                box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
+                                                transform: translateY(-0.1875rem);
+                                            }
+                                            
+                                            .footer_wrapper .form-control {
+                                                font-size: 2rem;
+                                                color: white;
+                                            }
+                                            
+                                            .footer_wrapper .form-control:focus {
+                                                outline: none;
+                                                box-shadow: none;
+                                                border-color: var(--secondary-color);
+                                            }
+                                            
+                                            .footer_wrapper .copyright-section {
+                                                background-color: var(--secondary-color);
+                                                text-align: center;
+                                                margin-top: 5rem;
+                                            }
+                                            
+                                            .footer_wrapper .copyright-section p {
+                                                margin-top: 0;
+                                                padding: 3rem 0;
+                                                line-height: 0;
+                                            }
+                                            
+                                            .footer_wrapper .copyright-section a {
+                                                color: var(--primary-text);
+                                                font-weight: 600;
+                                            }
+                                            
+                                            
+                                            .footer_wrapper .social-network .a2:hover {
+                                            background-color: blue;
+                                            color: white;
+                                            }
+                                            
+                                            
+                                            .footer_wrapper .social-network .a3:hover{
+                                            background-color: red;
+                                            color: white;
+                                            
+                                            }
+                                            
+                                            .footer_wrapper .social-network .a4:hover{
+                                                background-color: black;
+                                                color: white;
+                                            
+                                            }
+                                            
+                                            .footer_wrapper .social-network .a5:hover{
+                                                background-color: blue;
+                                                color: white;
+                                            }
+                                            
+                                            .footer_wrapper .social-network .a33:hover{
+                                                background-color: black;
+                                                color: white;
+                                               
+                                            }
+
+                     /* top nav logo */
+
+                     
+.top_logo_nav_bar .photo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+    margin-bottom: -13px;
+}
+
+
+.top_logo_nav_bar .logo_text h2{
+    margin-left: 10.5%;
+    margin-top: -75px;
+    font-size: 1.3em;
+}
+
+.top_logo_nav_bar .logo_text h1{
+    margin-left:-70% ;
+    margin-top: -20px;
+}
+.top_logo_nav_bar{
+    margin-top: -10px;
+}
+
+.top_logo_nav_bar .logo_text{
+    margin-top: 10px;
+}
+
+
+       /* search bar */
+
+       .search-container {
+        display: flex;
+        margin-left: 27%;
+        align-items: center;
+        margin-top: -30px;
+      }
+      
+      .search-input {
+        width: 500px;
+        padding: 10px;
+        border: 3px solid #ccc;
+        border-radius: 30px 0 0  30px;
+        outline: none;
+        font-size: 16px;
+        margin-top: -28px;
+        /* background: rgb(219, 218, 218); */
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);        
+      }
+      
+      .search-button {
+        padding: 10px 15px;
+        background-color: brown;
+        color: white;
+        border: none;
+        border-radius: 0 30px 30px 0;
+        cursor: pointer;
+        font-size: 22px;
+        margin-top: -28.5px;
+        margin-left: -5px;
+        /* background: rgb(219, 218, 218); */
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+      }
+      
+      .search-button:hover {
+        background-color: brown;
+      }
+
+      .top_logo_nav_bar a{
+        margin-left: 80%;
+        margin-top: -80px;
+      }
+
+      /* Departments */
+
+      .Departments h1{
+        text-align: center;
+        font-size: 5em;
+        font-weight: 900;
+      }
+
+      .Departments .Cardiology_Department h3{
+       margin-left: 10%;
+       font-size: 3em ;
+      }
+
+      /* Departments */
+      .Departments .Orthopedics_Department h3{
+        font-size: 3em;
+       
+        margin-left: 10%;
+      }
+
+                                                            /* content_us */
+
+      .content_us h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 4em;
+    }
+    .content_us .Email_box{
+        height:75vh;
+        width: 95%;
+        /* border: 1px solid; */
+        margin-left: 2%;
+        background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+        
+    }
+    .content_us .Email_box span {
+        color: red;
+        margin-left: 90px;
+        border-radius: 20px;
+        font-size: 3em;
+        margin-top: 1000px;
+        background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+        
+    }
+    .content_us .Email_box div {
+        margin-top: -10px;
+    }
+
+
+   
+    .content_us .Email_box p i {
+        background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+       border-radius: 40px;
+       font-size: 24em;
+       margin-top: 10px;
+       margin-left: 30px;
+        
+    }
+    .content_us .map{
+        margin-top: -475px;
+        margin-left: 55%;
+       font-size: 0.5em;
+       border-radius: 40px;
+       background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+    }
+    .phone{
+        height: 
+        80vh;
+        width: 95%;
+        /* border: 1px solid; */
+        margin-left: 2%;
+    }
+
+    .phone .mail{
+
+        height: 250px;
+        width: 100%;
+       /* border: 1px solid; */
+       border-radius: 20px;
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+    }
+    .phone .mail i {
+        font-size: 16em;
+        height: 230px;
+        margin-left: 30px;
+        margin-top: 10px;
+        color: blueviolet;
+        border-radius: 20px;
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+        
+    }
+    .phone .mail h1 {
+     margin-top: -220px;
+     margin-left: 30%;
+     font-size: 50px;
+     color: brown;
+     border-radius: 20px;
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+                      width: 880px;
+        
+    }
+    .phone .mail h5 {
+     margin-left: 33%;
+    }
+    .phone .mail a {
+     margin-left: 35%;
+     font-size: 45px;
+     text-decoration: none;
+     color: gold;
+    }
+    .phone .mail p i {
+        
+        background: rgb(219, 218, 218);
+       /* margin-top: -1000; */
+        border-radius: 10%;
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+        
+    }
+    .phone .mail  i:hover{
+        color: black;
+        background-color: red;
+    }
+    .phone .mail  h1:hover{
+        color: black;
+        background-color: red;
+    }
+    .phone .mail  a:hover{
+        color: blue;
+        
+    }
+    .phone .number{
+    height: 250px;
+    width: 100%;
+   border-radius: 20px;
+    margin-top: 10px;
+    box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+        
+    }
+    .phone .number  svg{
+        font-size: 20em;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 10px;
+        background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+        
+    }
+    .phone .number  svg:hover{
+        background-color: black;
+        color: red;
+    }
+    .phone .number  p:hover{
+        background-color: black;
+        color: red;
+    }
+    .phone .number p {
+       margin-left: 350px;
+       font-size: 50px;
+        margin-top: -215px;
+        background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+                      border-radius: 25px;
+                      width: 910px;
+    }
+    .phone .number  h5{
+        margin-left: 400px;
+    }
+    .phone .number  h1{
+        margin-left: 490px;
+        font-size: 45px;
+    }
+    .phone .number  h1 a:hover{
+       color: red;
+       font-size: 50px;
+    }
+    .add{
+       border-radius: 20px;
+        margin-left: 2%;
+        width: 95%;
+        height: 38vh;
+        background: rgb(219, 218, 218);
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+       
+    }
+    .add i{
+       font-size: 15em;
+       margin-left: 77%;
+       color: yellow;
+       background: rgb(219, 218, 218);
+       border-radius: 40px;
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+       
+    }
+    .add i:hover{
+        background-color: darkblue;
+        color: gold;
+    }
+    .add h1{
+        background: rgb(219, 218, 218);
+        color: brown;
+        margin-left: 30px;
+        margin-top: -225px;
+        border-radius: 20px;
+        font-size: 50px;
+        width: 800px;
+        box-shadow:
+                     -5px -4px 3px 0px rgba(255, 255, 255,0.425),
+                      5px 4px 3px 0px rgba(88, 88, 88, 0.425);
+    }
+    .add h1:hover{
+        background-color: darkred;
+        color: yellow;
+    }
+    .add h2{
+        margin-left: 110px;
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 10px;
+    }
+
